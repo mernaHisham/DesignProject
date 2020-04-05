@@ -1,0 +1,182 @@
+/* Global and header */
+
+* {
+    transition: ease-in-out 0.5s;
+}
+
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 15px grey;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+header ul li {
+    margin: 0px 20px;
+    padding: 9px;
+    border-radius: 13px;
+}
+
+header ul li:hover a {
+    color: #fff;
+}
+
+header ul li:hover {
+    background-color: gray;
+}
+
+header ul a {
+    font-size: 21px;
+    font-weight: bold;
+    color: dimgray;
+}
+
+header h3 {
+    display: inline-block;
+}
+
+header h3 a {
+    font-size: 28px;
+    color: black;
+}
+
+header div {
+    display: inline-block;
+}
+
+section {
+    margin: 0px 100px;
+}
+
+div {
+    margin: 0px 100px;
+}
+
+
+/* banner style */
+
+.home-banner-Section {
+    background-image: url(../imgs/banners/slider1-home3.jpg);
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -19px;
+}
+
+.about-banner-Section {
+    background-image: url(../imgs/banners/slider2-home2.jpg);
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -19px;
+}
+
+.home-banner-Section h2,
+.about-banner-Section h2 {
+    color: white;
+    font-size: 53px;
+    margin: auto;
+    position: relative;
+    padding: 4% 8% 0;
+}
+
+.home-banner-Section p,
+.about-banner-Section p {
+    color: white;
+    font-size: 23px;
+    margin: auto;
+    position: relative;
+    padding: 4% 8% 0;
+}
+
+.home-banner-Section button,
+.about-banner-Section button {
+    background: purple;
+    border: none;
+    color: white;
+    border-radius: 14px;
+    padding: 14px;
+    width: 100px;
+    position: relative;
+    left: 8%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.home-banner-Section button:hover,
+.about-banner-Section button:hover {
+    background: gray;
+    color: purple;
+}
+
+.overlay {
+    width: 100%;
+    margin: 0;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.71);
+}
+
+
+/* who we are style */
+
+.who-We-Are {}
+
+.who-We-Are div {
+    width: 32%;
+    display: inline-block;
+}
+
+.who-We-Are div:last-child {
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+    padding: 0px;
+    position: relative;
+    left: -10%;
+    padding: 4px;
+    border-radius: 21px;
+    box-shadow: 2px 5px 15px black;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    padding: 1px 0px;
+}
